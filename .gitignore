@@ -1,0 +1,25 @@
+# Node modules (for both frontend & backend)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build files
+frontend/build/
+backend/dist/
+
+# Environment variables
+frontend/.env
+backend/.env
+
+# Logs & cache
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
